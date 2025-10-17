@@ -1,0 +1,4 @@
+[build]
+  base = "my-project"         # your frontend folder name
+  publish = "my-project/dist" # folder where Vite outputs production files
+  command = "npm run build"   # how Netlify builds your frontend
