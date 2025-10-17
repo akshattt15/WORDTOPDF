@@ -3,7 +3,7 @@ import { FaGlobe, FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-blue-300 text-white mt-20">
-      <div className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-6 py-2 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo & Description */}
         <div className="flex flex-col space-y-4">
           <h2 className="text-2xl font-extrabold">Word2PDF</h2>
