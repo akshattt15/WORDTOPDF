@@ -8,7 +8,12 @@ const app=express();
 
 const port=8000;
 
-app.use(cors());
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST"],
+  allowedHeaders: ["Content-Type"]
+}));
+
 
 app.get("/",(req,res)=>{
     res.send("hello everyone to anyone");

@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="flex flex-col space-y-2">
           <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
           <p className="text-gray-300">Email: support@word2pdf.com</p>
-          <p className="text-gray-300">Phone: +91 123 456 7890</p>
+          <p className="text-gray-300">Phone: +91 123456789</p>
          <div className="flex space-x-4 mt-2">
   <a href="#" className="hover:text-gray-100 transition">
     <FaInstagram size={24} />
